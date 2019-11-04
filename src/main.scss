@@ -1,0 +1,15 @@
+$myVariable: #ff4757;
+
+h1{
+    color: $myVariable;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+
+    &:hover{
+        background: #7bed9f;
+    }
+}
