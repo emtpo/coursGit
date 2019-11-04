@@ -1,7 +1,11 @@
-$myVariable: #ff4757;
+$saumon: #ff4757;
+$sable: #eccc68;
+$twinkye: #ced6e0;
+$danger: #5352ed;
+
 
 h1{
-    color: $myVariable;
+    color: $sable;
 }
 
 .btn{
@@ -10,6 +14,14 @@ h1{
     font-size: 25px;
 
     &:hover{
-        background: #7bed9f;
+        background: $twinkye;
+    }
+
+    &-danger{
+        background: $danger;
+        color: $sable;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 25px;
     }
 }
