@@ -1,11 +1,12 @@
-$saumon: #ff4757;
-$sable: #2f3542;
-$twinkye: #ced6e0;
+$warning: #ff4757;
+$dark: #2f3542;
+$light: #ced6e0;
 $danger: rgb(149, 175, 192);
+$success: #27ae60;
 
 
 h1{
-    color: $sable;
+    color: $dark;
 }
 
 .btn{
@@ -14,14 +15,18 @@ h1{
     font-size: 25px;
 
     &:hover{
-        background: $twinkye;
+        background: $danger;
     }
 
     &-danger{
         background: $danger;
-        color: $sable;
         padding: 20px;
         border-radius: 10px;
         font-size: 25px;
+        
+        &:hover{
+            background: $warning;
+            color: $light;
+        }
     }
 }

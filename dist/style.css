@@ -8,14 +8,17 @@ h1 {
   font-size: 25px;
 }
 .btn:hover {
-  background: #ced6e0;
+  background: #95afc0;
 }
 .btn-danger {
   background: #95afc0;
-  color: #2f3542;
   padding: 20px;
   border-radius: 10px;
   font-size: 25px;
+}
+.btn-danger:hover {
+  background: #ff4757;
+  color: #ced6e0;
 }
 
 /*# sourceMappingURL=style.css.map */
